@@ -1,0 +1,30 @@
+.modal {
+  overflow: visible;
+  margin-bottom: 100px;
+  border: none;
+  border-radius: 2px;
+  left: 50%;
+  position: absolute;
+  width: 680px;
+  top: 250px !important;
+  margin-left: -340px;
+  display: block;
+  margin-top: 0px;
+  display: block;
+  box-shadow: 0 3px 7px rgba(0,0,0,0.3);
+  background-clip: padding-box;
+}
+
+.modal .close {
+  font-weight: 300;
+  font-size: 35px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 15px;
+  z-index: 1;
+}
+
+.business-modal .modal-body >.section {
+  border-right: solid 1px #dae1e9;
+}
